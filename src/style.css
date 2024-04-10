@@ -1,0 +1,107 @@
+:root {
+  --main-font: "Major Mono Display", monospace;
+  --second-font: "Roboto Mono", monospace;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: aquamarine;
+  font-family: var(--second-font);
+}
+
+.navbar a {
+  float: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover {
+  cursor: pointer;
+}
+
+.hyrule-header {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/122/679/original/hyrule-castle.jpg?1712771864");
+  background-size: cover;
+  background-repeat: none;
+  height: 600px;
+}
+
+.hyrule-header h1 {
+  font-family: var(--main-font);
+  font-size: 60px;
+}
+
+.bookTrip {
+  border: 2px solid green;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.calendar {
+  margin: 10px;
+  font-family: var(--second-font);
+}
+
+.formName {
+  margin: 10px;
+}
+
+#contact-name,
+#email-address {
+  font-family: var(--second-font);
+}
+
+.submit-btn {
+  margin: 10px;
+  font-family: var(--second-font);
+}
+
+.aboutHyruleSection {
+  margin: 10px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.aboutHyruleSection img {
+  height: 400px;
+  width: 400px;
+}
+
+.about-hyrule {
+  border: 2px solid green;
+}
+
+.about-hyrule h2 {
+  font-size: 30px;
+  font-family: var(--main-font);
+}
+
+.about-hyrule p {
+  text-align: center;
+  margin: 10px;
+  font-family: var(--second-font);
+  font-size: 13px;
+}
+
+.about-hyrule small {
+  font-style: italic;
+  font-family: var(--second-font);
+  font-size: 10px;
+}
+
+.about-hyrule small a {
+  text-decoration: none;
+  color: black;
+}
