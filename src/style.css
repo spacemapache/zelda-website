@@ -3,6 +3,10 @@
   --second-font: "Roboto Mono", monospace;
 }
 
+body {
+  background-color: #819fa1;
+}
+
 .container {
   text-align: center;
   display: flex;
@@ -13,8 +17,9 @@
 
 .navbar {
   overflow: hidden;
-  background-color: aquamarine;
+  background-color: #516b4d;
   font-family: var(--second-font);
+  padding: 20px;
 }
 
 .navbar a {
@@ -69,6 +74,7 @@
 .aboutHyruleSection {
   margin: 10px;
   border: 2px solid red;
+  background-color: #f4f5d7;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
